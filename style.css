@@ -75,3 +75,32 @@ img {
     align-items: center;
     gap: 2rem;
 }
+
+@media (max-width:580px) {
+    img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+    }
+
+    .choices {
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .choice {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        width: 100vw;
+    }
+
+    .score-board {
+        font-size: 1.3rem;
+        font-weight: bold;
+        justify-content: space-between;
+    }
+
+}
